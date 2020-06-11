@@ -26,3 +26,8 @@ pod 'JGJLinkLabel'
 # Screenshot:
 
 ![alt text](https://github.com/tounaobun/JGJLinkLabel/blob/master/screenshot.png)
+
+# Todo list:
+
+1. Add Swift version.
+2. link text applied for multiple matches.(Current version only applied to the first matched.)
