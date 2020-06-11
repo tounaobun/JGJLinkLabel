@@ -1,0 +1,6 @@
+framework module JGJLinkLabel {
+  umbrella header "JGJLinkLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
