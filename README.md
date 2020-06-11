@@ -1,6 +1,6 @@
 # JGJLinkLabel
 Add link text to label and make it clickable
-multiple lines are also supported.
+(multiple lines are also supported.)
 
 # Support Cocoapods.
 ```
