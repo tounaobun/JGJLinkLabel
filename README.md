@@ -3,9 +3,9 @@ Add link text to label and make it clickable
 multiple lines are also supported.
 
 # Support Cocoapods.
-
+```
 pod 'JGJLinkLabel'
-
+```
 # Usage:
 ```
     JGJLinkLabel *linkLabel = [[JGJLinkLabel alloc] init];
