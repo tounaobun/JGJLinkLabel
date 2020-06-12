@@ -1,5 +1,5 @@
 PODS:
-  - JGJLinkLabel (0.1.0)
+  - JGJLinkLabel (0.1.1)
 
 DEPENDENCIES:
   - JGJLinkLabel (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JGJLinkLabel: 05844b649483e2b6a38ab18e2fba3e5276da0314
+  JGJLinkLabel: 391f648340bfc915ad01748967f4aa115bed6543
 
 PODFILE CHECKSUM: f49f2fcf594c26154748ba5fbeec107410097d27
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3

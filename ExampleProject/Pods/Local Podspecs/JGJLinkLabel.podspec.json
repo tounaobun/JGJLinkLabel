@@ -1,6 +1,6 @@
 {
   "name": "JGJLinkLabel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "JGJLinkLabel",
   "homepage": "https://github.com/tounaobun/JGJLinkLabel",
   "platforms": {
@@ -15,7 +15,7 @@
   },
   "source": {
     "git": "https://github.com/tounaobun/JGJLinkLabel",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "frameworks": "UIKit",
   "source_files": [

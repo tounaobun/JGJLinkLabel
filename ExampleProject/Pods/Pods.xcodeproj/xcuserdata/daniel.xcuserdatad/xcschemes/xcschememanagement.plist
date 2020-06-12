@@ -4,21 +4,29 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>JGJLinkLabel.xcscheme_^#shared#^_</key>
+		<key>JGJLinkLabel.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Pods-ExampleProject.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Pods-ExampleProject.xcscheme_^#shared#^_</key>
+		<key>Pods-ExampleProjectTests.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>Pods-ExampleProjectTests.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict/>
 </dict>
 </plist>
