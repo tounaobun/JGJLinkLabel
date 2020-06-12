@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name              = 'JGJLinkLabel'
-s.version           = '0.1.0'
+s.version           = '0.1.1'
 s.summary           = 'JGJLinkLabel'
 s.homepage          = 'https://github.com/tounaobun/JGJLinkLabel'
 s.ios.deployment_target = '7.0'

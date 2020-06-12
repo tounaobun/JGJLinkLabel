@@ -79,11 +79,6 @@
     
     [self.linkDictionary setValue:clickHandler?:^{} forKey:linkText]; // duplicate linkText will be overrided.
 
-    NSDictionary *attributes = @{
-        NSUnderlineStyleAttributeName: @(NSUnderlineStyleSingle),
-        NSFontAttributeName: self.font,
-        NSForegroundColorAttributeName: self.linkColor ?: self.textColor,
-    };
     NSMutableArray *targetRanges = @[].mutableCopy;
     for (NSString *linkText in self.linkDictionary) {
         NSRange targetRange = [self.text rangeOfString:linkText];
@@ -92,11 +87,23 @@
         }
     }
     
-    NSMutableAttributedString *attributedText = [[NSMutableAttributedString alloc] initWithString:self.text attributes:@{NSFontAttributeName: self.font, NSForegroundColorAttributeName: self.textColor}];
-    for (NSValue *range in targetRanges) {
-        [attributedText addAttributes:attributes range:range.rangeValue];
+    NSDictionary *attributes = @{
+        NSUnderlineStyleAttributeName: @(NSUnderlineStyleSingle),
+        NSForegroundColorAttributeName: self.linkColor ?: self.textColor,
+    };
+    
+    NSMutableAttributedString *attrStr;
+    if (self.attributedText) {
+        attrStr = self.attributedText.mutableCopy;
+    } else {
+        attrStr = [[NSMutableAttributedString alloc] initWithString:self.text];
     }
-    self.attributedText = attributedText;
+    
+    for (NSValue *range in targetRanges) {
+        [attrStr addAttributes:attributes range:range.rangeValue];
+    }
+    self.attributedText = attrStr;
+    
 }
 
 
